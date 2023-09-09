@@ -1,0 +1,16 @@
+.grid-wrapper {
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.grid-wrapper div {
+    border-style: solid;
+}
+
+.column {
+    font-size: 3rem;
+}
